@@ -1,0 +1,70 @@
+% 页面大小
+\usepackage{geometry}
+\geometry{b5paper,centering,scale=0.8}
+
+% 字体
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\everymath{\displaystyle}
+\setCJKmainfont[Mapping = fullwidth-stop]{Source Han Serif SC}
+
+% 图片
+\usepackage{graphicx}
+
+% 测试用文本
+\usepackage{zhlipsum}
+
+% 子文件独立编译
+\usepackage{subfiles}
+
+% 颜色
+\usepackage{tcolorbox}
+\definecolor{frame}{HTML}{e0e0e0}
+
+% 定理
+\tcbuselibrary{most}
+\newtcolorbox{theorem}[2][]{
+  enhanced,breakable,
+  left=12pt,right=12pt,
+  fonttitle=\bfseries,
+  coltitle=black,
+  colbacktitle=frame,
+  attach boxed title to top left={yshifttext=-1mm},
+  boxed title style={skin=enhancedfirst jigsaw,arc=1mm,bottom=0mm,boxrule=0mm},
+  boxrule=1pt,
+  colback=white,
+  colframe=frame,
+  sharp corners,
+  title=\vspace{3mm}#2,
+  arc=1mm,#1
+}
+
+% 问题
+\usepackage{newtxtext}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage[strict]{changepage}
+\usepackage{framed}
+\newenvironment{problem}{%
+  \def\FrameCommand{%
+    \hspace{1pt}%
+    {\color{frame}\vrule width 2pt}%
+    {\color{white}\vrule width 4pt}%
+    \colorbox{white}%
+  }%
+  \MakeFramed{\advance\hsize-\width\FrameRestore}%
+  \noindent\hspace{-4.55pt}%
+  \begin{adjustwidth}{}{7pt}%
+  \vspace{2pt}\vspace{2pt}%
+}%
+{%
+  \vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}%
+
+% 拓展
+\newtcolorbox{extension}[2][]{
+  fonttitle=\bfseries,
+  title=#2,
+  colback=white,
+  coltitle=black,
+  colframe=frame,#1
+}
