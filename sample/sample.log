@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.7.29)  5 AUG 2025 20:38
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.7.29)  5 AUG 2025 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -351,6 +351,11 @@ Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
 
 
 Package fontspec Info: 
+(fontspec)             Could not resolve font "Source Han Serif SC Bold/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
 (fontspec)             Could not resolve font "Source Han Serif SC/I" (it
 (fontspec)             probably doesn't exist).
 
@@ -358,7 +363,8 @@ Package fontspec Info:
 Package fontspec Info: 
 (fontspec)             Font family 'SourceHanSerifSC(0)' created for font
 (fontspec)             'Source Han Serif SC' with options
-(fontspec)             [Script={CJK},Mapping={fullwidth-stop}].
+(fontspec)             [Script={CJK},Mapping={fullwidth-stop},BoldFont={Source
+(fontspec)             Han Serif SC Bold}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -366,8 +372,8 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Serif
 (fontspec)             SC/OT:script=hani;language=dflt;mapping=fullwidth-stop;"
 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Serif
-(fontspec)             SC/B/OT:script=hani;language=dflt;mapping=fullwidth-stop
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Serif SC
+(fontspec)             Bold/OT:script=hani;language=dflt;mapping=fullwidth-stop
 ;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Source Han
 (fontspec)             Serif
@@ -1612,10 +1618,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  32124 strings out of 409034
- 722842 string characters out of 5763946
+ 722880 string characters out of 5763946
  1952560 words of memory out of 5000000
- 54267 multiletter control sequences out of 15000+600000
- 563662 words of font info for 120 fonts, out of 8000000 for 9000
+ 54266 multiletter control sequences out of 15000+600000
+ 563678 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,116p,1239b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

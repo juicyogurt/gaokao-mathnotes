@@ -78,11 +78,11 @@ $n\geq 3$时有\[\frac{a_n}{a_{n-1}}·\frac{a_{n-1}}{a_{n-2}}·\dots·\frac{a_3}
 故$\alpha, \beta$是方程$x^2-\frac{2}{3}x+\frac{1}{9}=0$的两根。解得$\alpha=\beta=\frac{1}{3}$。故$a_n=(2n-1)·(\frac{1}{3})^{n-1},n\in\mathbb{N^*}$。对于更一般的情况，下面直接给出通法，等我学会了再回来推导。
 
 \begin{theorem}{不动点法和特征根法}
-  若数列$\{a_n\}$满足$a_{n+1}=\frac{pa_n+q}{ra_n+s}(r\neq 0, ps-rq\neq 0)$，$x_1, x_2$为方程$x=\frac{px+q}{rx+s}$的两根，则由\textbf{不动点法}可知
+  满足$a_{n+1}=\frac{pa_n+q}{ra_n+s}(r\neq 0, ps-rq\neq 0)$的数列$\{a_n\}$称为分式线性递推数列，$x_1, x_2$为方程$x=\frac{px+q}{rx+s}$的两根，则由\textbf{不动点法}可知
   \[x_1\neq x_2时\{\frac{a_n-x_1}{a_n-x_2}\}为等比数列\]
   \[x_1=x_2=x_0时\{\frac{1}{a_n-x_0}\}为等差数列\]
 
-  若数列$\{a_n\}$满足$a_{n+1}=\lambda a_n+\mu a_{n-1}(n\geq 2)$，$x_1, x_2$为方程$x^2=\lambda x+\mu$的两根，则由\textbf{特征根法}可知
+  满足$a_{n+1}=\lambda a_n+\mu a_{n-1}(n\geq 2)$的数列$\{a_n\}$称为二阶线性齐次递推数列，$x_1, x_2$为方程$x^2=\lambda x+\mu$的两根，则由\textbf{特征根法}可知
   \[x_1\neq x_2时a_n=\alpha x_1^{n}+\beta x_2^{n}\]
   \[x_1=x_2=x_0时a_n=(\alpha+\beta n)x_0^{n}\]
   代入$a_1, a_2$即可解出$\alpha, \beta$。
@@ -104,7 +104,7 @@ $\ln a_{n+1}-2\ln 2=\frac{1}{2}(\ln a_n-2\ln 2)\Leftrightarrow a_n=4^{1-(\frac{1
 由函数$f(x)=x+\frac{1}{x}在(0, 1)\downarrow$得\[b_{n+1}=b_n^2\Leftrightarrow \ln b_n=2^{n-1}·\ln \frac{1}{2}\Leftrightarrow b_n=(\frac{1}{2})^{2^{n-1}}\Leftrightarrow a_n=2^{2^{n-1}}+(\frac{1}{2})^{2^{n-1}}\]
 
 \begin{problem}
-  数列$\{a_n\}$满足$a_1=\frac{\pi}{4}$，$a_n\in (0, \pi)$，$(2n+1)\sin(a_{n+1}-a_n)=\sin(a_{n+1}+a_n)(n\in\mathbb{N^*})$，求其通项公式。
+  数列$\{a_n\}$满足$a_1=\frac{\pi}{4}$，$a_n\in (-\frac{\pi}{2}, \frac{\pi}{2})$，$(2n+1)\sin(a_{n+1}-a_n)=\sin(a_{n+1}+a_n)(n\in\mathbb{N^*})$，求其通项公式。
 \end{problem}
 
 展开并化简得\[n\sin a_{n+1}\cos a_n=(n+1)\cos a_{n+1}\sin a_n\Leftrightarrow \frac{\tan a_{n+1}}{n+1}=\frac{\tan a_n}{n}\]
