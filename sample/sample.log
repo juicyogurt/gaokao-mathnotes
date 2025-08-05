@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.7.29)  4 AUG 2025 19:37
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.7.29)  5 AUG 2025 20:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/桌面/gaokao-mathnotes/gaokao-mathnotes/sample/sample.tex
-(d:/桌面/gaokao-mathnotes/gaokao-mathnotes/sample/sample.tex
+**d:/桌面/gaokao-mathnotes/sample/sample.tex
+(d:/桌面/gaokao-mathnotes/sample/sample.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (D:\MikTeX\tex/latex/ctex\ctexbook.cls
@@ -249,19 +249,22 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen182
 \Gm@dimlist=\toks18
  (D:\MikTeX\tex/latex/geometry\geometry.cfg))
-(D:\MikTeX\tex/latex/unicode-math\unicode-math.sty
-Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
-
-(D:\MikTeX\tex/latex/unicode-math\unicode-math-xetex.sty
-Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
-TeX
-
-(D:\MikTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
+(D:\MikTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
 )
 (D:\MikTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
-\@mathmargin=\skip60
+\@mathmargin=\skip69
 
 For additional information on amsmath, use the `?' option.
 (D:\MikTeX\tex/latex/amsmath\amstext.sty
@@ -321,11 +324,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen190
 \lineht@=\dimen191
 \@envbody=\toks22
-\multlinegap=\skip61
-\multlinetaggap=\skip62
+\multlinegap=\skip70
+\multlinetaggap=\skip71
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+)
+(D:\MikTeX\tex/latex/unicode-math\unicode-math.sty
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(D:\MikTeX\tex/latex/unicode-math\unicode-math-xetex.sty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(D:\MikTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
 )
 \g__um_fam_int=\count311
 \g__um_fonts_used_int=\count312
@@ -361,6 +374,44 @@ Package fontspec Info:
 (fontspec)             SC/BI/OT:script=hani;language=dflt;mapping=fullwidth-sto
 p;"
 
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKsfdefault' (Microsoft YaHei).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Source Han Serif SC Bold/BI"
+(fontspec)             (it probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Source Han Serif SC Bold/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Source Han Serif SC Bold/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceHanSerifSCBold(0)' created for font
+(fontspec)             'Source Han Serif SC Bold' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Serif
+(fontspec)             SC Bold/OT:script=latn;language=dflt;"
+
+(D:\MikTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip72
+\enit@outerparindent=\dimen192
+\enit@toks=\toks24
+\enit@inbox=\box58
+\enit@count@id=\count314
+\enitdp@description=\count315
+)
 (D:\MikTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -378,44 +429,44 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 (D:\MikTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen192
-\Gin@req@width=\dimen193
+\Gin@req@height=\dimen193
+\Gin@req@width=\dimen194
 )
 (D:\MikTeX\tex/latex/zhlipsum\zhlipsum.sty
 Package: zhlipsum 2020/04/10 v1.2.0 Chinese dummy text
-\l__zhlipsum_begin_int=\count314
-\l__zhlipsum_end_int=\count315
-\l__zhlipsum_max_int=\count316
+\l__zhlipsum_begin_int=\count316
+\l__zhlipsum_end_int=\count317
+\l__zhlipsum_max_int=\count318
 
 (D:\MikTeX\tex/latex/zhlipsum\zhlipsum-utf8.def
 File: zhlipsum-utf8.def 2020/04/10 v1.2.0 Chinese dummy text with UTF-8 encodin
 g (for zhlipsum)
-\g__zhlipsum_simp_int=\count317
+\g__zhlipsum_simp_int=\count319
 
 Package zhlipsum Info: Chinese dummy text "simp" is created. It has 50
 (zhlipsum)             paragraphs.
 
-\g__zhlipsum_trad_int=\count318
+\g__zhlipsum_trad_int=\count320
 
 Package zhlipsum Info: Chinese dummy text "trad" is created. It has 50
 (zhlipsum)             paragraphs.
 
-\g__zhlipsum_nanshanjing_int=\count319
+\g__zhlipsum_nanshanjing_int=\count321
 
 Package zhlipsum Info: Chinese dummy text "nanshanjing" is created. It has 43
 (zhlipsum)             paragraphs.
 
-\g__zhlipsum_xiangyu_int=\count320
+\g__zhlipsum_xiangyu_int=\count322
 
 Package zhlipsum Info: Chinese dummy text "xiangyu" is created. It has 45
 (zhlipsum)             paragraphs.
 
-\g__zhlipsum_zhufu_int=\count321
+\g__zhlipsum_zhufu_int=\count323
 
 Package zhlipsum Info: Chinese dummy text "zhufu" is created. It has 110
 (zhlipsum)             paragraphs.
 
-\g__zhlipsum_aspirin_int=\count322
+\g__zhlipsum_aspirin_int=\count324
 
 Package zhlipsum Info: Chinese dummy text "aspirin" is created. It has 66
 (zhlipsum)             paragraphs.
@@ -433,12 +484,12 @@ Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 (D:\MikTeX\tex/latex/pgf/basiclayer\pgf.sty
 (D:\MikTeX\tex/latex/pgf/utilities\pgfrcs.sty
 (D:\MikTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen194
-\pgfutil@tempdimb=\dimen195
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
 )
 (D:\MikTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box58
+\pgfutil@abb=\box59
 )
 (D:\MikTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
 (D:\MikTeX\tex/generic/pgf\pgf.revision.tex)
@@ -452,32 +503,32 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (D:\MikTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (D:\MikTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen196
-\pgf@y=\dimen197
-\pgf@xa=\dimen198
-\pgf@ya=\dimen199
-\pgf@xb=\dimen256
-\pgf@yb=\dimen257
-\pgf@xc=\dimen258
-\pgf@yc=\dimen259
-\pgf@xd=\dimen260
-\pgf@yd=\dimen261
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
+\pgf@xd=\dimen261
+\pgf@yd=\dimen262
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count323
-\c@pgf@countb=\count324
-\c@pgf@countc=\count325
-\c@pgf@countd=\count326
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count327
+\c@pgf@counta=\count325
+\c@pgf@countb=\count326
+\c@pgf@countc=\count327
+\c@pgf@countd=\count328
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count329
 
 (D:\MikTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -493,12 +544,12 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 (D:\MikTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count328
+\pgfsys@objnum=\count330
 )))
 (D:\MikTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count329
-\pgfsyssoftpath@bigbuffer@items=\count330
+\pgfsyssoftpath@smallbuffer@items=\count331
+\pgfsyssoftpath@bigbuffer@items=\count332
 )
 (D:\MikTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -527,12 +578,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (D:\MikTeX\tex/generic/pgf/math\pgfmath.code.tex
 (D:\MikTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
 (D:\MikTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen262
-\pgfmath@count=\count331
-\pgfmath@box=\box59
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@dimen=\dimen263
+\pgfmath@count=\count333
+\pgfmath@box=\box60
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (D:\MikTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
 (D:\MikTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
@@ -545,52 +596,52 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (D:\MikTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)
 (D:\MikTeX\tex/generic/pgf/math\pgfmathcalc.code.tex)
 (D:\MikTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count332
+\c@pgfmathroundto@lastzeros=\count334
 ))
 (D:\MikTeX\tex/generic/pgf/math\pgfint.code.tex)
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen263
-\pgf@picmaxx=\dimen264
-\pgf@picminy=\dimen265
-\pgf@picmaxy=\dimen266
-\pgf@pathminx=\dimen267
-\pgf@pathmaxx=\dimen268
-\pgf@pathminy=\dimen269
-\pgf@pathmaxy=\dimen270
-\pgf@xx=\dimen271
-\pgf@xy=\dimen272
-\pgf@yx=\dimen273
-\pgf@yy=\dimen274
-\pgf@zx=\dimen275
-\pgf@zy=\dimen276
+\pgf@picminx=\dimen264
+\pgf@picmaxx=\dimen265
+\pgf@picminy=\dimen266
+\pgf@picmaxy=\dimen267
+\pgf@pathminx=\dimen268
+\pgf@pathmaxx=\dimen269
+\pgf@pathminy=\dimen270
+\pgf@pathmaxy=\dimen271
+\pgf@xx=\dimen272
+\pgf@xy=\dimen273
+\pgf@yx=\dimen274
+\pgf@yy=\dimen275
+\pgf@zx=\dimen276
+\pgf@zy=\dimen277
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen277
-\pgf@path@lasty=\dimen278
+\pgf@path@lastx=\dimen278
+\pgf@path@lasty=\dimen279
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen279
-\pgf@shorten@start@additional=\dimen280
+\pgf@shorten@end@additional=\dimen280
+\pgf@shorten@start@additional=\dimen281
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box60
-\pgf@hbox=\box61
-\pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count333
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count335
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen281
+\pgflinewidth=\dimen282
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen282
-\pgf@pt@y=\dimen283
-\pgf@pt@temp=\dimen284
+\pgf@pt@x=\dimen283
+\pgf@pt@y=\dimen284
+\pgf@pt@temp=\dimen285
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -603,20 +654,20 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen285
+\pgfarrowsep=\dimen286
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen286
-\pgf@sys@shading@range@num=\count334
-\pgf@shadingcount=\count335
+\pgf@max=\dimen287
+\pgf@sys@shading@range@num=\count336
+\pgf@shadingcount=\count337
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box63
+\pgfexternal@startupbox=\box64
 )
 (D:\MikTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -632,23 +683,23 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (D:\MikTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box64
+\pgfnodeparttextbox=\box65
 )
 (D:\MikTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (D:\MikTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen287
-\pgf@nodesepend=\dimen288
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
 )
 (D:\MikTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 ))
 (D:\MikTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks35
+\verbatim@line=\toks36
 \verbatim@in@stream=\read3
 )
 (D:\MikTeX\tex/latex/environ\environ.sty
@@ -659,28 +710,28 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (D:\MikTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count336
+\etb@tempcnta=\count338
 )
-\tcb@titlebox=\box65
-\tcb@upperbox=\box66
-\tcb@lowerbox=\box67
-\tcb@phantombox=\box68
-\c@tcbbreakpart=\count337
-\c@tcblayer=\count338
-\c@tcolorbox@number=\count339
-\l__tcobox_tmpa_box=\box69
-\l__tcobox_tmpa_dim=\dimen289
-\tcb@temp=\box70
+\tcb@titlebox=\box66
+\tcb@upperbox=\box67
+\tcb@lowerbox=\box68
+\tcb@phantombox=\box69
+\c@tcbbreakpart=\count339
+\c@tcblayer=\count340
+\c@tcolorbox@number=\count341
+\l__tcobox_tmpa_box=\box70
+\l__tcobox_tmpa_dim=\dimen290
 \tcb@temp=\box71
 \tcb@temp=\box72
 \tcb@temp=\box73
+\tcb@temp=\box74
 )
 (D:\MikTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count340
-\c@tcbrasterrow=\count341
-\c@tcbrasternum=\count342
-\c@tcbraster=\count343
+\c@tcbrastercolumn=\count342
+\c@tcbrasterrow=\count343
+\c@tcbrasternum=\count344
+\c@tcbraster=\count345
 ) (D:\MikTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (D:\MikTeX\tex/latex/pgf/frontendlayer\tikz.sty
@@ -691,43 +742,43 @@ Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (D:\MikTeX\tex/generic/pgf/math\pgfmath.code.tex))
 (D:\MikTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen290
-\pgffor@skip=\dimen291
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 (D:\MikTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
 (D:\MikTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count344
-\pgfplotmarksize=\dimen292
+\pgf@plot@mark@count=\count346
+\pgfplotmarksize=\dimen293
 )
-\tikz@lastx=\dimen293
-\tikz@lasty=\dimen294
-\tikz@lastxsaved=\dimen295
-\tikz@lastysaved=\dimen296
-\tikz@lastmovetox=\dimen297
-\tikz@lastmovetoy=\dimen298
-\tikzleveldistance=\dimen299
-\tikzsiblingdistance=\dimen300
-\tikz@figbox=\box74
-\tikz@figbox@bg=\box75
-\tikz@tempbox=\box76
-\tikz@tempbox@bg=\box77
-\tikztreelevel=\count345
-\tikznumberofchildren=\count346
-\tikznumberofcurrentchild=\count347
-\tikz@fig@count=\count348
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikz@lastmovetox=\dimen298
+\tikz@lastmovetoy=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count347
+\tikznumberofchildren=\count348
+\tikznumberofcurrentchild=\count349
+\tikz@fig@count=\count350
 
 (D:\MikTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count349
-\pgfmatrixcurrentcolumn=\count350
-\pgf@matrix@numberofcolumns=\count351
+\pgfmatrixcurrentrow=\count351
+\pgfmatrixcurrentcolumn=\count352
+\pgf@matrix@numberofcolumns=\count353
 )
-\tikz@expandcount=\count352
+\tikz@expandcount=\count354
 
 (D:\MikTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
 .tex
@@ -740,7 +791,7 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 )
 (D:\MikTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box78
+\l__tikzfill_img_box=\box79
 ))
 (D:\MikTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
@@ -758,9 +809,9 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box79
-\tcb@totalupperbox=\box80
-\tcb@totallowerbox=\box81
+\tcb@testbox=\box80
+\tcb@totalupperbox=\box81
+\tcb@totallowerbox=\box82
 )
 (D:\MikTeX\tex/latex/tcolorbox\tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
@@ -768,36 +819,36 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
 ) (D:\MikTeX\tex/latex/tcolorbox\tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
-\tcbfitdim=\dimen301
-\tcb@lowerfitdim=\dimen302
-\tcb@upperfitdim=\dimen303
-\tcb@cur@hbadness=\count353
+\tcbfitdim=\dimen302
+\tcb@lowerfitdim=\dimen303
+\tcb@upperfitdim=\dimen304
+\tcb@cur@hbadness=\count355
 ) (D:\MikTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (D:\MikTeX\tex/latex/tcolorbox\tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
 (D:\MikTeX\tex/latex/listings\listings.sty
-\lst@mode=\count354
-\lst@gtempboxa=\box82
-\lst@token=\toks38
-\lst@length=\count355
-\lst@currlwidth=\dimen304
-\lst@column=\count356
-\lst@pos=\count357
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
-\lst@newlines=\count358
-\lst@lineno=\count359
-\lst@maxwidth=\dimen307
+\lst@mode=\count356
+\lst@gtempboxa=\box83
+\lst@token=\toks39
+\lst@length=\count357
+\lst@currlwidth=\dimen305
+\lst@column=\count358
+\lst@pos=\count359
+\lst@lostspace=\dimen306
+\lst@width=\dimen307
+\lst@newlines=\count360
+\lst@lineno=\count361
+\lst@maxwidth=\dimen308
 
 (D:\MikTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 )
 (D:\MikTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count360
-\lst@skipnumbers=\count361
-\lst@framebox=\box83
+\c@lstnumber=\count362
+\lst@skipnumbers=\count363
+\lst@framebox=\box84
 )
 (D:\MikTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/05/25 1.10b listings configuration
@@ -806,15 +857,15 @@ Package: listings 2024/05/25 1.10b (Carsten Heinz)
 
 (D:\MikTeX\tex/xelatex/xecjk\xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count362
-\l__xeCJK_listings_flag_int=\count363
+\l__xeCJK_listings_max_char_int=\count364
+\l__xeCJK_listings_flag_int=\count365
 )
 (D:\MikTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (D:\MikTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count364
+\c@tcblisting=\count366
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -846,10 +897,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (D:\MikTeX\tex/generic/xkeyval\xkeyval.tex
 (D:\MikTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count365
+\XKV@depth=\count367
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (D:\MikTeX\tex/latex/base\textcomp.sty
@@ -857,8 +908,8 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 (D:\MikTeX\tex/latex/xstring\xstring.sty
 (D:\MikTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count366
-\xs_countb=\count367
+\xs_counta=\count368
+\xs_countb=\count369
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -872,24 +923,24 @@ LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
 
 (D:\MikTeX\tex/generic/binhex\binhex.tex)
-\ntx@tmpcnta=\count368
-\ntx@cnt=\count369
+\ntx@tmpcnta=\count370
+\ntx@cnt=\count371
 LaTeX Info: Redefining \oldstylenums on input line 611.
 LaTeX Info: Redefining \liningnums on input line 615.
-\tx@sixem=\dimen308
-\tx@y=\dimen309
-\tx@x=\dimen310
-\tx@tmpdima=\dimen311
-\tx@tmpdimb=\dimen312
-\tx@tmpdimc=\dimen313
-\tx@tmpdimd=\dimen314
-\tx@tmpdime=\dimen315
-\tx@tmpdimf=\dimen316
-\tx@dimA=\dimen317
-\tx@dimAA=\dimen318
-\tx@dimB=\dimen319
-\tx@dimBB=\dimen320
-\tx@dimC=\dimen321
+\tx@sixem=\dimen309
+\tx@y=\dimen310
+\tx@x=\dimen311
+\tx@tmpdima=\dimen312
+\tx@tmpdimb=\dimen313
+\tx@tmpdimc=\dimen314
+\tx@tmpdimd=\dimen315
+\tx@tmpdime=\dimen316
+\tx@tmpdimf=\dimen317
+\tx@dimA=\dimen318
+\tx@dimAA=\dimen319
+\tx@dimB=\dimen320
+\tx@dimBB=\dimen321
+\tx@dimC=\dimen322
 )
 (D:\MikTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
@@ -899,17 +950,22 @@ File: svgnam.def 2023/11/15 v3.01 Predefined colors according to SVG 1.1 (UK)
 )
 (D:\MikTeX\tex/latex/changepage\changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count370
-\cp@tempcnt=\count371
+\c@cp@cntr=\count372
+\cp@tempcnt=\count373
 )
 (D:\MikTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip63
-\fb@frw=\dimen322
-\fb@frh=\dimen323
-\FrameRule=\dimen324
-\FrameSep=\dimen325
+\OuterFrameSep=\skip73
+\fb@frw=\dimen323
+\fb@frh=\dimen324
+\FrameRule=\dimen325
+\FrameSep=\dimen326
 ))
+\symCJKmath=\mathgroup255
+LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
+(Font)                  TU/SourceHanSerifSC(0)/m/n --> TU/SourceHanSerifSC(0)/b
+/n on input line 3.
+
 (D:\MikTeX\tex/latex/newtx\TeXGyreTermesX.fontspec)
 
 Package fontspec Info: 
@@ -1123,34 +1179,34 @@ language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesX(1)/m/n on input line 
-5.
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TeXGyreTermesX(1)/m/it on input lin
-e 5.
+e 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(1)/b/n on input line
- 5.
+ 3.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 5.
+(Font)              scaled to size 10.53937pt on input line 3.
  (sample.aux)
 \openout1 = `sample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1171,7 +1227,7 @@ LaTeX Font Info:    ... okay on input line 5.
 * \oddsidemargin=-22.19391pt
 * \evensidemargin=-22.1939pt
 * \topmargin=-31.20668pt
-* \headheight=12.0pt
+* \headheight=13.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
@@ -1189,13 +1245,13 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 5.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 5.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 5.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 5.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.
@@ -1228,7 +1284,7 @@ dflt;-ss05;mapping=tex-text;"
 dflt;-ss05;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 5.
+(Font)              scaled to size 10.53937pt on input line 3.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.
@@ -1274,17 +1330,17 @@ g=tex-text;"
 dflt;-ss05;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 5.
+(Font)              scaled to size 10.53937pt on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 5.
+(Font)              `operators' in the math version `normal' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 5.
+ line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 5.
+(Font)              `operators' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 5.
+t line 3.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.
@@ -1361,15 +1417,15 @@ nmodern-math.otf]/OT:script=math;language=dflt;-ss05;+ssty=0;mapping=tex-text;"
 uage=dflt;-ss05;mapping=tex-text;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 5.
+(Font)              `symbols' in the math version `normal' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 5.
+t line 3.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 5.
+(Font)              `symbols' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 5.
+t line 3.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.
@@ -1440,75 +1496,127 @@ nmodern-math.otf]/OT:script=math;language=dflt;-ss05;+ssty=0;mapping=tex-text;"
 uage=dflt;-ss05;mapping=tex-text;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 5
+(Font)              `largesymbols' in the math version `normal' on input line 3
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 5.
+t line 3.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 5.
+(Font)              `largesymbols' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 5.
-\c@lstlisting=\count372
+t line 3.
+\c@lstlisting=\count374
+(数列求通项问题/数列求通项问题.tex
+第\ntsrbold 1章
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 18.06749pt on input line 7.
+(Font)              scaled to size 22.08249pt on input line 3.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 22.08249pt on input line 3.
+
+LaTeX Font Warning: Font shape `TU/SourceHanSerifSCBold(0)/b/n' undefined
+(Font)              using `TU/SourceHanSerifSCBold(0)/m/n' instead on input lin
+e 3.
+
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 12.045pt on input line 7.
+(Font)              scaled to size 15.05624pt on input line 4.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 15.05624pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.045pt on input line 7.
+(Font)              scaled to size 15.05624pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 7.
+(Font)              scaled to size 12.045pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 7.
+(Font)              scaled to size 9.03374pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.04628pt on input line 7.
+(Font)              scaled to size 15.05785pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 7.
+(Font)              scaled to size 12.04628pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 7.
+(Font)              scaled to size 9.0347pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.0437pt on input line 7.
+(Font)              scaled to size 15.05463pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 7.
+(Font)              scaled to size 12.0437pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 7.
-
-LaTeX Warning: No \author given.
-
+(Font)              scaled to size 9.03276pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.37756pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.26968pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.54048pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.37834pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.27023pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.53824pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.37677pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.26912pt on input line 5.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 10.53937pt on input line 9.
 
 
 [1
 
 
-
-] (数列的概念/数列的概念.tex
-
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.53937pt on input line 3.
-[2
-
 ]
-第一章
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 22.08249pt on input line 3.
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 22.08249pt on input line 3.
+
+
+Package fancyhdr Warning: \headheight is too small (13.0pt): 
+(fancyhdr)                Make it at least 14.83524pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.83524pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.83524pt}.
+
+[2]
+
+
+Package fancyhdr Warning: \headheight is too small (13.0pt): 
+(fancyhdr)                Make it at least 18.28789pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.28789pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-5.28789pt}.
+
+[3]
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(1)/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 97.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(1)/m/n' will be
+(Font)              scaled to size 7.37756pt on input line 97.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(1)/m/n' will be
+(Font)              scaled to size 5.26968pt on input line 97.
 )
 
-[3] (sample.aux)
+
+Package fancyhdr Warning: \headheight is too small (13.0pt): 
+(fancyhdr)                Make it at least 14.83524pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.83524pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.83524pt}.
+
+[4] (sample.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 31410 strings out of 409034
- 706577 string characters out of 5763946
- 1930560 words of memory out of 5000000
- 53590 multiletter control sequences out of 15000+600000
- 561914 words of font info for 90 fonts, out of 8000000 for 9000
+ 32124 strings out of 409034
+ 722842 string characters out of 5763946
+ 1952560 words of memory out of 5000000
+ 54267 multiletter control sequences out of 15000+600000
+ 563662 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,6n,116p,887b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,17n,116p,1239b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on sample.pdf (3 pages).
+Output written on sample.pdf (4 pages).

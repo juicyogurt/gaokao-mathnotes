@@ -1,0 +1,113 @@
+\documentclass[../sample]{subfiles}
+\begin{document}
+\chapter{数列}
+\section{数列求通项问题}
+如果已知通项公式，数列的任意一项就能通过首项和下标表示。由数列的递推式可求数列的通项。前文提到的等差数列和等比数列求通项分别对应累加法和累乘法，现将其写成更普遍的形式。比如取数列$\{a_n\}$满足$a_{n+1}=a_{n}+f(n)$。$n\geq 2$时有\[a_{n}=a_{n-1}+f(n-1), \dots, a_{2}=a_{1}+f(1)\]
+把上述$n-1$个式子相加得\[a_{n}+\dots+a_{2}=a_{n-1}+\dots+a_{1}+f(n-1)+\dots+f(1)\Leftrightarrow a_{n}=a_{1}+f(n-1)+\dots+f(1)\]
+相加后的等式左边有从$2$到$n$的链，右边有从$1$到$n-1$的链，从$2$到$n-1$的部分被消去，$a_n$和$a_1$从此建立起联系。对于满足$a_{n+1}=a_{n}·f(n)$的数列$\{a_n\}$，也有类似方法。
+
+\begin{theorem}{累加法和累乘法}
+  若数列$\{a_n\}$满足$a_{n+1}=a_{n}+f(n)$，由\textbf{累加法}，可得$a_{n}=\sum_{i=1}^{n-1}f(n)+a_1$。
+  
+  若数列$\{a_n\}$满足$a_{n+1}=a_{n}·f(n)$，由\textbf{累乘法}，可得$a_{n}=\prod_{i=1}^{n-1}f(n)·a_1$。
+\end{theorem}
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=1$，$\frac{a_n}{a_{n-1}}=\frac{n-1}{n+1}(n\geq 2, n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+$n\geq 3$时有\[\frac{a_n}{a_{n-1}}·\frac{a_{n-1}}{a_{n-2}}·\dots·\frac{a_3}{a_2}·\frac{a_2}{a_{1}}=\frac{n-1}{n+1}·\frac{n-2}{n}·\dots·\frac{2}{4}·\frac{1}{3}\Leftrightarrow \frac{a_n}{a_{1}}=\frac{2}{(n+1)n}\]
+经验证，$n=1,2$时满足。故$a_n=\frac{2}{(n+1)n},n\in\mathbb{N^*}$。
+
+上述方法的前提是$a_{n+1}$项与$a_n$项的系数相同。那要是不同该怎么办呢？给$a_n$项加个系数，得到$a_{n+1}=\lambda a_{n}+f(n)(\lambda\neq 0, 1)$，这就是这种情况的通式。下面是几个例子。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=3$，$a_{n+1}=2a_{n}+3(n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+设$a_{n+1}+\alpha=2(a_n+\alpha)$，得$\alpha=3$。$a_n+3=2^{n-1}(a_1+3)=3·2^n$。故$a_n=3·2^n-3, n\in\mathbb{N^*}$。这里通过猜$a_n$加上一个常数能构成以$\lambda$为公比的等比数列，成功让$a_n$与$a_1$建立起联系。这种方法有风险，毕竟这个生造的通项后面还可能挂着$n$的一次、二次项甚至更多。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=1$，$a_{n}=3a_{n-1}+3^{n-1}(n\geq 2, n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+设$a_n+\alpha·3^n=3(a_{n-1}+\alpha·3^{n-1})$，得$a_n=3a_{n-1}$，矛盾！加上$n$的一次项试试。
+
+设$a_n+(\alpha n+\beta)·3^n=3(a_{n-1}+[\alpha(n-1)+\beta]·3^{n-1})(n\geq 2)$，整理可得$\alpha=-\frac{1}{3}$，$\beta=0$。经验证，$n=1$时满足。故$a_n=n·3^{n-1}, n\in\mathbb{N^*}$。
+
+不过对于这种$f(n)$中含有$\lambda$的$n$次幂的情况，更简便的做法是同除$\lambda^n$，转化成$a_{n+1}=a_{n}+f(n)$的形式再用累加法。对于本题，有$\frac{a_n}{3^n}=\frac{a_{n-1}}{3^{n-1}}+\frac{1}{3}$，这样就很好做了。接下来上点强度。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=1$，$a_{n+1}=2a_{n}+n(1+2^n)(n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+首先试试上一题的同除$\lambda^n$的方法。
+\[\frac{a_{n+1}}{2^{n+1}}=\frac{a_n}{2^n}+\frac{n}{2^{n+1}}+\frac{n}{2}\Leftrightarrow \frac{a_{n+1}}{2^{n+1}}-\frac{a_1}{2^1}=\frac{n(n+1)}{4}+\sum_{i=1}^{n}\frac{i}{2^{i+1}}\]
+等差比数列求和过程略。故$a_n=2^{n-2}(n^2-n+6)-n-1, n\in\mathbb{N^*}$。
+
+其实这题用待定系数法也能做。设\[\begin{aligned}
+  &a_{n+1}+[\alpha (n+1)+\beta]+[\gamma(n+1)^2+\delta(n+1)+\mu]·2^{n+1}\\
+  =2[&a_n+(\alpha n+\beta)+(\gamma n^2+\delta n+\mu)·2^n]
+\end{aligned}\]
+则\[a_{n+1}=2a_n+\alpha n+(\beta-\alpha)-(4\gamma n+2\gamma +2\delta )·2^n=2a_n+n+n·2^n\]
+于是$\alpha=1, \beta=1, \gamma=-\frac{1}{4}, \delta=\frac{1}{4}$。取$\mu\neq -\frac{3}{2}$，
+\[a_n+(n+1)+(-\frac{1}{4}n^2+\frac{1}{4}n+\mu)·2^n=2^{n-1}·(3+2\mu)\]
+化简即得。显然这很麻烦，而且在求出系数之前，含$n$项的最高次是未知的，需要慢慢尝试。不过待定系数法也因此具有了普适性，所有数列求通项都能用待定系数法。
+\newpage
+\begin{theorem}{待定系数法}
+  若数列$\{a_n\}$满足$a_{n+1}=\lambda a_{n}+f(n)(\lambda\neq 0, 1)$，可进行合理猜测，用\textbf{待定系数法}设出$g(n)$，使得$a_{n+1}+g(n+1)=\lambda[a_n+g(n)]$，从而求出$g(n)$。
+
+  若$g(n)$中含有$\lambda$的$n$次幂，优先考虑同除$\lambda^n$，转化成$a_{n+1}=a_{n}+f(n)$的形式。
+\end{theorem}
+
+前文出现过的递推式还都长得慈眉善目，那就见识一下分式型的递推式吧。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=\frac{1}{2}$，$a_n=\frac{4a_{n-1}+3}{a_{n-1}+2}(n\geq 2,n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+方程$x=\frac{4x+3}{x+2}$的解为$x_1=-1, x_2=3$。
+\[\frac{a_n+1}{a_n-3}=\frac{\dfrac{4a_{n-1}+3}{a_{n-1}+2}+1}{\dfrac{4a_{n-1}+3}{a_{n-1}+2}-3}=5\frac{a_{n-1}+1}{a_{n-1}-3}\Leftrightarrow \frac{a_n+1}{a_n-3}=5^{n-1}·(-\frac{3}{5})\]
+故$a_n=\frac{9·5^{n-2}-1}{3·5^{n-2}+1},n\in\mathbb{N^*}$。做这种题都按这个套路来就行。下面来个三世同堂。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=a_2=1$，$a_{n+1}=\frac{2}{3}a_n-\frac{1}{9}a_{n-1}(n\geq 2,n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+用待定系数法尝试构造等比数列。令$a_{n+1}-\alpha a_n=\beta (a_n-\alpha a_{n-1})(n\geq 2)$，则\[a_{n+1}=(\alpha+\beta)a_n-\alpha\beta a_{n-1}=\frac{2}{3}a_n-\frac{1}{9}a_{n-1}\]
+故$\alpha, \beta$是方程$x^2-\frac{2}{3}x+\frac{1}{9}=0$的两根。解得$\alpha=\beta=\frac{1}{3}$。故$a_n=(2n-1)·(\frac{1}{3})^{n-1},n\in\mathbb{N^*}$。对于更一般的情况，下面直接给出通法，等我学会了再回来推导。
+
+\begin{theorem}{不动点法和特征根法}
+  若数列$\{a_n\}$满足$a_{n+1}=\frac{pa_n+q}{ra_n+s}(r\neq 0, ps-rq\neq 0)$，$x_1, x_2$为方程$x=\frac{px+q}{rx+s}$的两根，则由\textbf{不动点法}可知
+  \[x_1\neq x_2时\{\frac{a_n-x_1}{a_n-x_2}\}为等比数列\]
+  \[x_1=x_2=x_0时\{\frac{1}{a_n-x_0}\}为等差数列\]
+
+  若数列$\{a_n\}$满足$a_{n+1}=\lambda a_n+\mu a_{n-1}(n\geq 2)$，$x_1, x_2$为方程$x^2=\lambda x+\mu$的两根，则由\textbf{特征根法}可知
+  \[x_1\neq x_2时a_n=\alpha x_1^{n}+\beta x_2^{n}\]
+  \[x_1=x_2=x_0时a_n=(\alpha+\beta n)x_0^{n}\]
+  代入$a_1, a_2$即可解出$\alpha, \beta$。
+\end{theorem}
+
+累加法、累乘法、待定系数法、不动点法和特征根法是数列求通项最基本的方法。通过取倒数、取对数、平方和开方运算，可以把它们变得更恶心一点，但万变不离其宗。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=1$，$a_{n+1}^2=4a_n(n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+$\ln a_{n+1}-2\ln 2=\frac{1}{2}(\ln a_n-2\ln 2)\Leftrightarrow a_n=4^{1-(\frac{1}{2})^{n-1}}$。
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=\frac{5}{2}$，$a_{n+1}=a_n^2-2(n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+可令$a_n=b_n+\frac{1}{b_n}$，不妨设$b_n\in (0,1), b_1=\frac{1}{2}$。则\[a_{n+1}=a_n^2-2\Leftrightarrow b_{n+1}+\frac{1}{b_{n+1}}=b_n^2+\frac{1}{b_n^2}\]
+由函数$f(x)=x+\frac{1}{x}在(0, 1)\downarrow$得\[b_{n+1}=b_n^2\Leftrightarrow \ln b_n=2^{n-1}·\ln \frac{1}{2}\Leftrightarrow b_n=(\frac{1}{2})^{2^{n-1}}\Leftrightarrow a_n=2^{2^{n-1}}+(\frac{1}{2})^{2^{n-1}}\]
+
+\begin{problem}
+  数列$\{a_n\}$满足$a_1=\frac{\pi}{4}$，$a_n\in (0, \pi)$，$(2n+1)\sin(a_{n+1}-a_n)=\sin(a_{n+1}+a_n)(n\in\mathbb{N^*})$，求其通项公式。
+\end{problem}
+
+展开并化简得\[n\sin a_{n+1}\cos a_n=(n+1)\cos a_{n+1}\sin a_n\Leftrightarrow \frac{\tan a_{n+1}}{n+1}=\frac{\tan a_n}{n}\]
+故\[\frac{\tan a_n}{n}=\frac{\tan a_1}{1}=1\Leftrightarrow a_n=\arctan n\]
+
+\end{document}

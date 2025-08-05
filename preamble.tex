@@ -2,11 +2,62 @@
 \usepackage{geometry}
 \geometry{b5paper,centering,scale=0.8}
 
+%页眉页脚
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyhead[LE]{\ntsrbold\thepage}
+\fancyhead[RE]{\textbf{\rightmark}}
+\fancyhead[RO]{\ntsrbold\thepage}
+\fancyhead[LO]{\ntsrbold\boxed{\textbf{github.com/juicyogurt/gaokao-mathnotes}}}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\renewcommand\chaptermark[1]{%
+  \markright{\CTEXifname{\CTEXthechapter}{}#1}
+}
+\setlength{\headheight}{13pt}
+
+%章节标题
+\ctexset{
+  chapter = {
+    format      = \huge\bfseries\centering,
+    nameformat  = {},
+    number      = \ntsrbold\arabic{chapter},
+    name        = {第,章},
+    aftername   = \quad,
+    beforeskip  = 30pt,
+    afterskip   = 40pt,
+    pagestyle   = empty,
+  },
+  section = {
+    format      = \Large\bfseries\raggedright,
+    number      = \ntsrbold\boxed{\textbf{\arabic{chapter}.\arabic{section}}},
+    aftername   = \quad,
+    beforeskip  = 25pt,
+    afterskip   = 15pt,
+  },
+  subsection = {
+    format      = \large\bfseries\raggedright,
+    indent      = 2em, 
+    beforeskip  = 15pt,
+    afterskip   = 10pt,
+  }
+}
+
 % 字体
 \usepackage{fontspec}
+\usepackage{amsmath}
 \usepackage{unicode-math}
 \everymath{\displaystyle}
-\setCJKmainfont[Mapping = fullwidth-stop]{Source Han Serif SC}
+\setCJKmainfont[Mapping = fullwidth-stop]
+{Source Han Serif SC}
+\setCJKsansfont[Mapping = fullwidth-stop,
+  BoldFont={Source Han Sans SC}]{得意黑}
+\newfontfamily\ntsrbold{Source Han Serif SC Bold}
+\xeCJKsetup{CJKmath=true}
+
+% 列表
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=0pt, nosep}
 
 % 图片
 \usepackage{graphicx}
