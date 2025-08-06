@@ -5,23 +5,30 @@
 %页眉页脚
 \usepackage{fancyhdr}
 \fancyhf{}
-\fancyhead[LE]{\ntsrbold\thepage}
-\fancyhead[RE]{\textbf{\rightmark}}
-\fancyhead[RO]{\ntsrbold\thepage}
-\fancyhead[LO]{\ntsrbold\boxed{\textbf{github.com/juicyogurt/gaokao-mathnotes}}}
+
+\fancyhead[LE]{
+  \textsl{\textbf{\thepage}}\quad
+  \boxed{\textbf{\textsl{github.com/juicyogurt/gaokao-mathnotes}}}
+}
+
+\fancyhead[RO]{
+  \boxed{\textsl{\textbf{\rightmark}}}\quad
+  \textsl{\textbf{\thepage}}
+}
+
 \renewcommand{\headrulewidth}{0pt}
 \pagestyle{fancy}
 \renewcommand\chaptermark[1]{%
-  \markright{\CTEXifname{\CTEXthechapter}{}#1}
+  \markright{#1}
 }
-\setlength{\headheight}{13pt}
+\setlength{\headheight}{20pt}
 
 %章节标题
 \ctexset{
   chapter = {
     format      = \huge\bfseries\centering,
     nameformat  = {},
-    number      = \ntsrbold\arabic{chapter},
+    number      = \textbf{\arabic{chapter}},
     name        = {第,章},
     aftername   = \quad,
     beforeskip  = 30pt,
@@ -30,7 +37,7 @@
   },
   section = {
     format      = \Large\bfseries\raggedright,
-    number      = \ntsrbold\boxed{\textbf{\arabic{chapter}.\arabic{section}}},
+    number      = \textbf{\arabic{chapter}.\arabic{section}},
     aftername   = \quad,
     beforeskip  = 25pt,
     afterskip   = 15pt,
@@ -44,18 +51,38 @@
 }
 
 % 字体
-\usepackage{fontspec}
 \usepackage{amsmath}
 \usepackage{unicode-math}
 \everymath{\displaystyle}
-\setmainfont{Latin Modern Roman}
-\setCJKmainfont[Mapping = fullwidth-stop,
-  BoldFont={Source Han Serif SC Bold}]
-  {Source Han Serif SC}
-\setCJKsansfont[Mapping = fullwidth-stop,
-  BoldFont={Source Han Sans SC}]
-  {得意黑}
-\newfontfamily\ntsrbold{Source Han Serif SC Bold}
+
+\setmainfont[
+  Mapping = fullwidth-stop,
+  BoldFont={Source Han Serif SC Bold},
+  ItalicFont = 得意黑,
+  BoldItalicFont = 字魂扁桃体,
+]{Source Han Serif SC}
+
+\setCJKmainfont[
+  Mapping = fullwidth-stop,
+  BoldFont={Source Han Serif SC Bold},
+  ItalicFont = 得意黑,
+  BoldItalicFont = 字魂扁桃体,
+]{Source Han Serif SC}
+
+\setCJKsansfont[
+  Mapping = fullwidth-stop,
+  BoldFont={Source Han Sans SC Bold},
+  ItalicFont = 得意黑,
+  BoldItalicFont = 字魂扁桃体,
+]{Source Han Sans SC}
+
+\setCJKmonofont[
+  Mapping = fullwidth-stop,
+  BoldFont = {Source Han Sans SC Bold},
+  ItalicFont = 得意黑,
+  BoldItalicFont = 字魂扁桃体,
+]{Resource Han Rounded CN}
+
 \xeCJKsetup{CJKmath=true}
 \setmathfont{latinmodern-math.otf}
 \setmathfont[range=bb/{latin,Latin}]{texgyretermes-math.otf}
@@ -96,7 +123,6 @@
 }
 
 % 问题
-\usepackage{newtxtext}
 \usepackage[dvipsnames,svgnames]{xcolor}
 \usepackage[strict]{changepage}
 \usepackage{framed}
